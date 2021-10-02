@@ -5,4 +5,4 @@
 	> zeroNumber, sameNumber
 
 2. 구해준 count를 바탕으로 Ranking을 구해주는 방식인데 ranking 클래스를 보게되면.
-	> 간단하게 랭킹 계간해서 구해줬고 이후  return Math.min(6, [나온랭킹] ) 해줘서 값이 6보다 커도 6이 나오게 했다.
+	> 간단하게 랭킹 계산해서 구해줬고 이후  return Math.min(6, [나온랭킹] ) 해줘서 값이 6보다 커도 6이 나오게 했다.

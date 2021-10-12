@@ -2,7 +2,7 @@ package BackJoon.숫자_정사각형;
 
 import java.util.*;
 
-public class Main1051 {
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

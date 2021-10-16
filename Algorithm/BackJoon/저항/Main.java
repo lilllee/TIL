@@ -1,4 +1,4 @@
-package BackJoon.저항;
+package 저항;
 
 import java.util.*;
 

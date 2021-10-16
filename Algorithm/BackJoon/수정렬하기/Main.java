@@ -1,4 +1,4 @@
-package BackJoon.수정렬하기;
+package 수정렬하기;
 
 import java.util.*;
 

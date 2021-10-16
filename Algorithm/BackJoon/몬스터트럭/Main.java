@@ -1,4 +1,4 @@
-package BackJoon.몬스터트럭;
+package 몬스터트럭;
 
 import java.util.*;
 

@@ -16,7 +16,7 @@ URI? URL? URN?
     - Name : 리소스에 이름을 부여
   - **위치는 변할수 있지만, 이름은 변하지 않는다.**
 
-- ![image-20211015205448799](C:\Users\kopqw\AppData\Roaming\Typora\typora-user-images\image-20211015205448799.png)
+- ![image-20211015205448799](https://user-images.githubusercontent.com/45530877/137488001-ddb248c1-de07-45be-b273-0a17cbae3ebd.png)
 
   [이미지 출처 위키 백과](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EC%9E%90%EC%9B%90_%EC%8B%9D%EB%B3%84%EC%9E%90)
 

@@ -44,7 +44,7 @@
 
   - HTTP의 구조는 이런식으로 생겼다
 
-    ![image-20211023194633352](C:\Users\kopqw\AppData\Roaming\Typora\typora-user-images\image-20211023194633352.png)
+    ![image](https://user-images.githubusercontent.com/45530877/138670801-45a98e2f-3ee5-41e5-a797-81eb8b46439c.png)
 
     - 시작라인
 

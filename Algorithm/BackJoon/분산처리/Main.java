@@ -1,4 +1,4 @@
-package BackJoon.분산처리;
+package 분산처리;
 
 import java.util.*;
 

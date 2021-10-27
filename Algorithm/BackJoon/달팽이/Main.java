@@ -1,4 +1,4 @@
-package BackJoon.달팽이;
+package 달팽이;
 
 import java.io.*;
 

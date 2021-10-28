@@ -1,4 +1,4 @@
-package BackJoon.유기농배추;
+package 유기농배추;
 
 import java.util.*;
 

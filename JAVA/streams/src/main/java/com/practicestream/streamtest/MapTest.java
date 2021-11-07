@@ -1,8 +1,8 @@
-package com.streamtest;
+package com.practicestream.streamtest;
 
-import com.beans.People;
-import com.beans.PeopleDTO;
-import com.mockdata.MockData;
+import com.practicestream.beans.People;
+import com.practicestream.beans.PeopleDTO;
+import com.practicestream.mockdata.MockData;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -41,4 +41,6 @@ public class MapTest {
 
         peopleDTOList.forEach(System.out::println);
     }
+
+
 }

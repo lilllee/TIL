@@ -1,6 +1,4 @@
-package com.beans;
-
-import java.util.Objects;
+package com.practicestream.beans;
 
 public class PeopleDTO {
 

@@ -1,22 +1,16 @@
-package com.main;
+package com.beans;
+
+import java.util.List;
 
 public class People {
 
-    private final Integer id;
-    private final String firstName;
-    private final String lastName;
-    private final String email;
-    private final Gender gender;
-    private final Integer age;
+    private Integer id;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private Integer age;
+    private String gender;
 
-    public People(Integer id, String firstName, String lastName, String email, Gender gender, Integer age) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.gender = gender;
-        this.age = age;
-    }
 
     public Integer getId() {
         return id;
@@ -34,7 +28,7 @@ public class People {
         return email;
     }
 
-    public Gender getGender() {
+    public String getGender() {
         return gender;
     }
 
@@ -54,4 +48,11 @@ public class People {
                 '}';
     }
 
+    public double GenderAgeAverage(List<People> peopleList, String gender) {
+        return peopleList.stream()
+                .filter(people -> people.getGender().equals(gender))
+                .mapToInt(People::getAge)
+                .average()
+                .getAsDouble();
+    }
 }

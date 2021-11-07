@@ -14,6 +14,8 @@ import java.util.stream.Collectors;
 
 public class streamsTest {
 
+    private People peoples = new People();
+
     @Test
     @DisplayName("스트림 미사용")
     public void beforeStream() throws Exception{
@@ -35,6 +37,16 @@ public class streamsTest {
                 .filter(people1 -> people1.getAge() >= 50)
                 .collect(Collectors.toList());
         oldPeople.forEach(System.out::println);
+    }
+
+    @Test
+    @DisplayName("성별에 따른 나이의 평균 값")
+    public void name() throws Exception{
+        List<People> people = MockData.getPeople();
+        double male = peoples.GenderAgeAverage(people, "MALE");
+        double female = peoples.GenderAgeAverage(people, "FEMALE");
+        System.out.println(male);
+        System.out.println(female);
     }
 }
 

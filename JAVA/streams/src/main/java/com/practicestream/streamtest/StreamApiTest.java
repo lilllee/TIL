@@ -45,8 +45,7 @@ public class StreamApiTest {
         List<People> people = MockData.getPeople();
         double male = peoples.GenderAgeAverage(people, "MALE");
         double female = peoples.GenderAgeAverage(people, "FEMALE");
-        System.out.println(male);
-        System.out.println(female);
+        System.out.println(male + " " + female);
     }
 
 

@@ -1,3 +1,5 @@
+package 나이트의이동;
+
 import java.awt.*;
 import java.util.*;
 
